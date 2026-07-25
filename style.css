@@ -91,3 +91,32 @@ header#about {
   color: var(--color-accent);
   transform: translateY(-2px);
 }
+
+#projects { text-align: center; }
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.project-card {
+  background: #f5efdd;
+  border: 1px solid #c9b78f;
+  padding: 1.75rem;
+  box-shadow: 3px 3px 0 rgba(58, 47, 34, 0.15);
+}
+
+.project-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc { margin-bottom: 1rem; }
+
+.project-link {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+}
