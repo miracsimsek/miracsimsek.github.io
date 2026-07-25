@@ -155,3 +155,16 @@ header#about {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 640px) {
+  section, header { padding: 2.5rem 1.25rem; }
+
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-frame {
+    width: 130px;
+    height: 155px;
+  }
+}
